@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pocket Deals • Weekly Blast</title>
+  <meta name="description" content="Pocket Deals Weekly Blast — Off-Market Florida Investment Opportunities" />
+
+  <style>
+    :root{
+      --bg:#F5F5F5;
+      --card:#2AA5C8;
+      --ink:#111111;
+      --muted:#555555;
+      --white:#ffffff;
+      --btn:#000000;
+    }
+
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+    }
+
+    .wrap{
+      width: min(980px, 100%);
+      margin: 0 auto;
+      padding: 18px;
+    }
+
+    header{
+      text-align:center;
+      padding: 22px 14px 10px;
+    }
+
+    header img{
+      width: 160px;
+      height: auto;
+      display:block;
+      margin: 0 auto 14px;
+    }
+
+    h1{
+      margin: 0 0 8px;
+      font-size: clamp(20px, 3.2vw, 30px);
+      font-weight: 800;
+      letter-spacing: .2px;
+    }
+
+    .sub{
+      margin: 0 0 16px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .btn{
+      display:inline-block;
+      background: var(--btn);
+      color: var(--card);
+      font-weight: 800;
+      padding: 12px 18px;
+      border-radius: 10px;
+      text-decoration:none;
+      letter-spacing: .5px;
+    }
+
+    .hr{
+      height:1px;
+      background:#DDDDDD;
+      margin: 18px 0 22px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 16px;
+    }
+
+    .card{
+      grid-column: span 12;
+      background: var(--card);
+      border-radius: 16px;
+      overflow:hidden;
+      box-shadow: 0 10px 24px rgba(0,0,0,.12);
+    }
+
+    .card .inner{
+      padding: 18px;
+      text-align:center;
+      color: var(--white);
+    }
+
+    .title{
+      margin: 0 0 10px;
+      font-size: clamp(18px, 2.6vw, 24px);
+      font-weight: 900;
+    }
+
+    .photo{
+      width:100%;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      display:block;
+    }
+
+    .price{
+      margin: 10px 0 0;
+      font-size: 16px;
+      font-weight: 900;
+      color: #0b0b0b; /* contraste como tus ejemplos */
+      text-shadow: 0 1px 0 rgba(255,255,255,.25);
+    }
+
+    .kpi{
+      margin: 6px 0 0;
+      font-size: 16px;
+      font-weight: 800;
+      color: #0b0b0b;
+      text-shadow: 0 1px 0 rgba(255,255,255,.25);
+    }
+
+    .bullets{
+      margin: 14px auto 0;
+      padding: 0;
+      list-style: none;
+      max-width: 720px;
+      text-align:center;
+      line-height: 1.5;
+      font-size: 16px;
+      color: #F7F7F7;
+    }
+
+    .bullets li{ margin: 6px 0; }
+
+    .comps{
+      margin-top: 14px;
+      font-weight: 900;
+      letter-spacing:.3px;
+    }
+
+    .btn-photos{
+      margin: 14px 0 4px;
+      display:inline-block;
+      background: var(--btn);
+      color: var(--card);
+      font-weight: 900;
+      padding: 12px 18px;
+      border-radius: 10px;
+      text-decoration:none;
+    }
+
+    .legal{
+      margin-top: 22px;
+      padding: 16px;
+      background: #efefef;
+      border-radius: 12px;
+      font-size: 12px;
+      line-height: 18px;
+      color: #444;
+      text-align:left;
+    }
+
+    footer{
+      text-align:center;
+      padding: 18px 0 28px;
+      color:#555;
+      font-size: 13px;
+    }
+
+    footer a{ color: var(--card); text-decoration:none; font-weight:700; }
+
+    /* En desktop, 2 cards por fila si quieres */
+    @media (min-width: 900px){
+      .card{ grid-column: span 6; }
+      header{ padding-top: 30px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <header>
+      <img
+        src="https://img.mailinblue.com/10183268/images/content_library/original/6914309569086782aaf575b8.png"
+        alt="Pocket Deals Real Estate"
+      />
+      <h1>Pocket Deals • Weekly Blast</h1>
+      <p class="sub">Exclusive Off-Market Florida Investment Opportunities</p>
+      <a class="btn" href="[[LINK_VIEW_ALL_DEALS]]" target="_blank" rel="noopener">ACCESS TO VIP GROUP CHAT</a>
+    </header>
+
+    <div class="hr"></div>
+
+    <section class="grid">
+
+      <!-- ✅ CARD 1 (EDITA AQUÍ) -->
+      <article class="card">
+        <img class="photo" src="https://img.mailinblue.com/10183268/images/content_library/original/6914d1cb24cea17d3da1b47a.jpg" alt="Property photo">
+        <div class="inner">
+          <h2 class="title">3XXX Sanchez St Tampa, FL 33605</h2>
+
+          <p class="price">Asking: $205,000</p>
+          <p class="kpi">ARV: $390,000+</p>
+
+          <ul class="bullets">
+            <li><b>3 Beds</b> | <b>1 Bath</b> | <b>1,300 SF</b></li>
+            <li><b>5,227 SF Lot</b></li>
+            <li>Roof: Older, may need replacement soon</li>
+            <li>AC: Installed in 2018</li>
+            <li>Water Heater: Around 2020</li>
+            <li><b>Vacant</b></li>
+
+            <li class="comps">COMPS:</li>
+            <li>1708 E 15th Ave — 3/2 | 1,380 SF | SOLD $400k 08/2025</li>
+            <li>1217 E 29th Ave — 3/2 | 1,336 SF | SOLD $385k 10/2025</li>
+            <li>3007 N 16th St — 3/2 | 1,357 SF | SOLD $385k 10/2025</li>
+          </ul>
+
+          <a class="btn-photos" href="https://photos.app.goo.gl/jsL2UW3U9mMn9Jxe8" target="_blank" rel="noopener">MORE PHOTOS</a>
+        </div>
+      </article>
+
+      <!-- ✅ CARD 2 (EDITA AQUÍ) -->
+      <article class="card">
+        <img class="photo" src="https://img.mailinblue.com/10183268/images/content_library/original/6914d65f9b8c73861d30389d.jpg" alt="Property photo">
+        <div class="inner">
+          <h2 class="title">1XXX E Osborne Ave Tampa, FL 33603</h2>
+
+          <p class="price">Asking: $325,000</p>
+          <p class="kpi">ARV: $470,000+</p>
+
+          <ul class="bullets">
+            <li><b>4 Beds</b> | <b>2 Baths</b> | <b>1,400 SF</b></li>
+            <li><b>5,712 SF Lot</b></li>
+            <li>Roof: Replaced 5 years ago</li>
+            <li>AC: 3 years old</li>
+            <li>Water Heater: Older, functional</li>
+            <li>Interior: Fresh paint & new carpet (1 year)</li>
+            <li><b>Delivered Vacant at Closing</b></li>
+
+            <li class="comps">COMPS:</li>
+            <li>1207 E Powhatan Ave — 3/2 | 1,356 SF | SOLD $567k 09/2025</li>
+            <li>1104 E Ellicott St — 3/2 | 1,408 SF | SOLD $475k 09/2025</li>
+            <li>1003 E Emma St — 3/2 | 1,587 SF | SOLD $469k 08/2025</li>
+            <li>412 E Selma Ave — 3/2 | 1,196 SF | SOLD $445k 09/2025</li>
+          </ul>
+
+          <a class="btn-photos" href="https://photos.app.goo.gl/7JRVdP8FECDQDVC99" target="_blank" rel="noopener">MORE PHOTOS</a>
+        </div>
+      </article>
+
+    </section>
+
+    <div class="legal">
+      <b>DISCLAIMER:</b><br>
+      Pocket Deals RE for residential and/or commercial real estate. All of our investment properties are sold under the following criteria unless otherwise noted: ZERO day inspection period. Closing with seller’s title company of choice. 21-day or less closing (unless otherwise noted). $15,000 deposit (unless otherwise noted). Cash, hard money or DSCR loans only unless otherwise mentioned. No FHA/Conventional. Most deals are assignment contracts. YOU MUST VERIFY ALL INFORMATION PROVIDED INDEPENDENTLY. Real estate investment is speculative and risk of loss can be substantial.
+    </div>
+
+    <footer>
+      Pocket Deals Real Estate • <a href="https://www.instagram.com/pocketdealsre" target="_blank" rel="noopener">@pocketdealsre</a><br>
+      All deals sold as-is • Cash or Hard Money only.<br>
+      Wilmer Del Castillo • <a href="tel:+13057480502">+1 (305) 748-0502</a> •
+      <a href="https://linktr.ee/PocketDealsRE" target="_blank" rel="noopener">linktr.ee/PocketDealsRE</a>
+    </footer>
+
+  </div>
+</body>
+</html>
